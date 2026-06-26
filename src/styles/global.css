@@ -1,0 +1,37 @@
+/* Spinner rotation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Base form element styles */
+input,
+select {
+  font-size: 14px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 0.5px solid #d3d1c7;
+  outline: none;
+  background: var(--color-background-primary, #fff);
+  color: var(--color-text-primary, #111);
+}
+
+input:focus,
+select:focus {
+  border-color: #534ab7;
+  box-shadow: 0 0 0 2px rgba(83, 74, 183, 0.15);
+}
+
+/* Responsive helpers */
+@media (max-width: 640px) {
+  .table-wrap {
+    overflow-x: auto;
+  }
+  .hide-mobile {
+    display: none !important;
+  }
+  .desktop-controls {
+    flex-wrap: wrap;
+  }
+}

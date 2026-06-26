@@ -83,7 +83,7 @@ src/
 ├── hooks/
 │   └── useUsers.js          # All state: data fetching, CRUD, filter,
 ├── pagination/utils/
-│              ├── avatarColors.js      # Color palette + initials helper
+│              ├── avatar.js      # Color palette + initials helper
 │              ├── constants.js         # API_BASE, DEPARTMENTS, PAGE_SIZE_OPTIONS
 │              └── validation.js        # Client-side form validation
 └── styles/
